@@ -1,0 +1,80 @@
+2026-11-19 14:52:22,786 INFO [NiFi Web Server-20] o.a.nifi.groups.StandardProcessGroup PutFile[id=f44b5f82-01a1-1000-77da-a188165a8527] added to StandardProcessGroup[identifier=f44b5d2d-01a1-1000-5e18-f18158b15a0a,name=kafka-integration]
+2026-11-19 14:52:22,805 INFO [NiFi Web Server-23] o.a.nifi.groups.StandardProcessGroup LogAttribute[id=f44b5f94-01a1-1000-1d92-2be66b1e56b3] added to StandardProcessGroup[identifier=f44b5d2d-01a1-1000-5e18-f18158b15a0a,name=kafka-integration]
+2026-11-19 14:52:22,889 INFO [NiFi Web Server-23] o.a.nifi.groups.StandardProcessGroup PublishKafkaRecord_2_6[id=f44b5fe8-01a1-1000-8314-205089183665] added to StandardProcessGroup[identifier=f44b5d2d-01a1-1000-5e18-f18158b15a0a,name=kafka-integration]
+2026-11-19 14:52:22,943 INFO [NiFi Web Server-23] o.a.nifi.groups.StandardProcessGroup PutFile[id=f44b601f-01a1-1000-a343-652b7bc6ad4e] added to StandardProcessGroup[identifier=f44b5d2d-01a1-1000-5e18-f18158b15a0a,name=kafka-integration]
+2026-11-19 14:52:22,995 INFO [NiFi Web Server-23] o.a.nifi.groups.StandardProcessGroup LogAttribute[id=f44b6053-01a1-1000-7ec8-e713a5997cf7] added to StandardProcessGroup[identifier=f44b5d2d-01a1-1000-5e18-f18158b15a0a,name=kafka-integration]
+2026-11-19 14:52:25,575 INFO [NiFi Web Server-20] o.a.n.c.s.StandardProcessScheduler Starting PublishKafkaRecord_2_6[id=f44b5fe8-01a1-1000-8314-205089183665]
+2026-11-19 14:52:25,575 INFO [NiFi Web Server-20] o.a.n.controller.StandardProcessorNode Starting PublishKafkaRecord_2_6[id=f44b5fe8-01a1-1000-8314-205089183665]
+2026-11-19 14:52:25,577 INFO [NiFi Web Server-20] o.a.n.c.s.StandardProcessScheduler Starting LogAttribute[id=f44b5f94-01a1-1000-1d92-2be66b1e56b3]
+2026-11-19 14:52:25,578 INFO [NiFi Web Server-20] o.a.n.controller.StandardProcessorNode Starting LogAttribute[id=f44b5f94-01a1-1000-1d92-2be66b1e56b3]
+2026-11-19 14:52:25,578 INFO [NiFi Web Server-20] o.a.n.c.s.StandardProcessScheduler Starting ConsumeKafkaRecord_2_6[id=f44b5ede-01a1-1000-ec3b-a8d8c1c63785]
+2026-11-19 14:52:25,578 INFO [NiFi Web Server-20] o.a.n.controller.StandardProcessorNode Starting ConsumeKafkaRecord_2_6[id=f44b5ede-01a1-1000-ec3b-a8d8c1c63785]
+2026-11-19 14:52:25,579 INFO [NiFi Web Server-20] o.a.n.c.s.StandardProcessScheduler Starting PutFile[id=f44b601f-01a1-1000-a343-652b7bc6ad4e]
+2026-11-19 14:52:25,579 INFO [NiFi Web Server-20] o.a.n.controller.StandardProcessorNode Starting PutFile[id=f44b601f-01a1-1000-a343-652b7bc6ad4e]
+2026-11-19 14:52:25,579 INFO [NiFi Web Server-20] o.a.n.c.s.StandardProcessScheduler Starting PutFile[id=f44b5f82-01a1-1000-77da-a188165a8527]
+2026-11-19 14:52:25,580 INFO [NiFi Web Server-20] o.a.n.controller.StandardProcessorNode Starting PutFile[id=f44b5f82-01a1-1000-77da-a188165a8527]
+2026-11-19 14:52:25,581 INFO [NiFi Web Server-20] o.a.n.c.s.StandardProcessScheduler Starting LogAttribute[id=f44b6053-01a1-1000-7ec8-e713a5997cf7]
+2026-11-19 14:52:25,581 INFO [NiFi Web Server-20] o.a.n.controller.StandardProcessorNode Starting LogAttribute[id=f44b6053-01a1-1000-7ec8-e713a5997cf7]
+2026-11-19 14:52:25,587 INFO [Timer-Driven Process Thread-10] o.a.n.c.s.TimerDrivenSchedulingAgent Scheduled PutFile[id=f44b5f82-01a1-1000-77da-a188165a8527] to run with 1 threads
+2026-11-19 14:52:25,587 INFO [Timer-Driven Process Thread-1] o.a.n.c.s.TimerDrivenSchedulingAgent Scheduled ConsumeKafkaRecord_2_6[id=f44b5ede-01a1-1000-ec3b-a8d8c1c63785] to run with 1 threads
+2026-11-19 14:52:25,587 INFO [Timer-Driven Process Thread-5] o.a.n.c.s.TimerDrivenSchedulingAgent Scheduled LogAttribute[id=f44b6053-01a1-1000-7ec8-e713a5997cf7] to run with 1 threads
+2026-11-19 14:52:25,587 INFO [Timer-Driven Process Thread-2] o.a.n.c.s.TimerDrivenSchedulingAgent Scheduled PublishKafkaRecord_2_6[id=f44b5fe8-01a1-1000-8314-205089183665] to run with 1 threads
+2026-11-19 14:52:25,587 INFO [Timer-Driven Process Thread-8] o.a.n.c.s.TimerDrivenSchedulingAgent Scheduled LogAttribute[id=f44b5f94-01a1-1000-1d92-2be66b1e56b3] to run with 1 threads
+2026-11-19 14:52:25,587 INFO [Timer-Driven Process Thread-3] o.a.n.c.s.TimerDrivenSchedulingAgent Scheduled PutFile[id=f44b601f-01a1-1000-a343-652b7bc6ad4e] to run with 1 threads
+2026-11-19 14:52:32,698 INFO [Timer-Driven Process Thread-8] o.a.n.processors.standard.LogAttribute LogAttribute[id=f44b5f94-01a1-1000-1d92-2be66b1e56b3] logging for flow file StandardFlowFileRecord[uuid=7ada7461-9e54-474d-a4cd-52aca920a15a,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1795099952635-1, container=default, section=1], offset=0, length=482],offset=0,name=d9f5d7c3-8068-426c-9dfb-b9b778693b98,size=482]
+Key: 'kafka.topic'
+  "id" : 2,
+  "id" : 3,
+  "id" : 4,
+  "id" : 5,
+  "id" : 6,
+2026-11-19 14:52:32,700 INFO [Timer-Driven Process Thread-8] o.a.n.processors.standard.LogAttribute LogAttribute[id=f44b5f94-01a1-1000-1d92-2be66b1e56b3] logging for flow file StandardFlowFileRecord[uuid=513c20de-d75e-481d-9fb6-d52e2a4b06dd,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1795099952643-2, container=default, section=2], offset=0, length=191],offset=0,name=641f3ae2-32ea-4b34-958c-39e1b5ff9890,size=191]
+Key: 'kafka.topic'
+  "id" : 1,
+  "id" : 8,
+2026-11-19 14:52:32,700 INFO [Timer-Driven Process Thread-8] o.a.n.processors.standard.LogAttribute LogAttribute[id=f44b5f94-01a1-1000-1d92-2be66b1e56b3] logging for flow file StandardFlowFileRecord[uuid=499a9cb0-9915-49ae-9c0c-88d45655eedc,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1795099952644-3, container=default, section=3], offset=0, length=281],offset=0,name=6c05d388-1fdb-4c33-9c27-57ea8d7ee81c,size=281]
+Key: 'kafka.topic'
+  "id" : 7,
+  "id" : 9,
+  "id" : 10,
+2026-11-19 14:53:16,159 INFO [Timer-Driven Process Thread-10] o.a.n.processors.standard.LogAttribute LogAttribute[id=f44b5f94-01a1-1000-1d92-2be66b1e56b3] logging for flow file StandardFlowFileRecord[uuid=d17e24ad-a182-48e2-80df-bce4865b704b,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1795099952635-1, container=default, section=1], offset=482, length=93],offset=0,name=5cf4a154-3fed-44b7-8aad-17f7aaa62f7e,size=93]
+Key: 'kafka.topic'
+  "id" : 101,
+2026-11-19 14:53:16,160 INFO [Timer-Driven Process Thread-10] o.a.n.processors.standard.LogAttribute LogAttribute[id=f44b5f94-01a1-1000-1d92-2be66b1e56b3] logging for flow file StandardFlowFileRecord[uuid=3d1dde92-4ad4-4278-915c-b62159c6083c,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1795099952644-3, container=default, section=3], offset=281, length=110],offset=0,name=1055d8d0-87ee-4772-b742-11cf70cbfe6f,size=110]
+Key: 'kafka.topic'
+  "id" : 100,
+2026-11-19 14:53:17,192 ERROR [Timer-Driven Process Thread-5] o.a.n.p.k.pubsub.ConsumeKafkaRecord_2_6 ConsumeKafkaRecord_2_6[id=f44b5ede-01a1-1000-ec3b-a8d8c1c63785] Failed to parse message from Kafka using the configured Record Reader. Will route message as its own FlowFile to the 'parse.failure' relationship
+	at org.apache.nifi.processors.kafka.pubsub.ConsumeKafkaRecord_2_6.onTrigger(ConsumeKafkaRecord_2_6.java:539)
+2026-11-19 14:53:17,200 ERROR [Timer-Driven Process Thread-5] o.a.n.p.k.pubsub.ConsumeKafkaRecord_2_6 ConsumeKafkaRecord_2_6[id=f44b5ede-01a1-1000-ec3b-a8d8c1c63785] Failed to parse message from Kafka using the configured Record Reader. Will route message as its own FlowFile to the 'parse.failure' relationship
+	at org.apache.nifi.processors.kafka.pubsub.ConsumeKafkaRecord_2_6.onTrigger(ConsumeKafkaRecord_2_6.java:539)
+2026-11-19 14:53:17,222 INFO [Timer-Driven Process Thread-4] o.a.n.processors.standard.LogAttribute LogAttribute[id=f44b5f94-01a1-1000-1d92-2be66b1e56b3] logging for flow file StandardFlowFileRecord[uuid=d272ce69-233f-4f86-aa5a-16520e51a550,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1795099952643-2, container=default, section=2], offset=191, length=110],offset=0,name=867fc169-bb8b-468b-8ceb-eddbd6e80daf,size=110]
+Key: 'kafka.topic'
+  "id" : 102,
+2026-11-19 14:54:21,890 INFO [Timer-Driven Process Thread-5] o.a.n.processors.standard.LogAttribute LogAttribute[id=f44b5f94-01a1-1000-1d92-2be66b1e56b3] logging for flow file StandardFlowFileRecord[uuid=4f33c7f3-2b4d-4602-8d2d-5698cf2c8001,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1795099952644-3, container=default, section=3], offset=391, length=196],offset=0,name=31b356fb-d438-401d-8d59-5a2b172bd9b4,size=196]
+Key: 'kafka.topic'
+  "id" : 11,
+  "id" : 12,
+2026-11-19 14:54:22,915 INFO [Timer-Driven Process Thread-1] o.a.n.processors.standard.LogAttribute LogAttribute[id=f44b5f94-01a1-1000-1d92-2be66b1e56b3] logging for flow file StandardFlowFileRecord[uuid=29174dc3-d9d1-46ba-92e8-9abd02f15ca2,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1795099952635-1, container=default, section=1], offset=607, length=91],offset=0,name=33008a90-9baa-4931-ab5e-cd958338c16f,size=91]
+Key: 'kafka.topic'
+  "id" : 13,
+2026-11-19 14:54:22,918 INFO [Timer-Driven Process Thread-1] o.a.n.processors.standard.LogAttribute LogAttribute[id=f44b5f94-01a1-1000-1d92-2be66b1e56b3] logging for flow file StandardFlowFileRecord[uuid=12bdeb91-48dc-4e62-aebc-c7167f56c5a4,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1795099952643-2, container=default, section=2], offset=301, length=107],offset=0,name=e662ed8e-ea14-409e-a0a3-1673ac4cefc6,size=107]
+Key: 'kafka.topic'
+  "id" : 14,
+2026-11-19 14:54:23,931 INFO [Timer-Driven Process Thread-8] o.a.n.processors.standard.LogAttribute LogAttribute[id=f44b5f94-01a1-1000-1d92-2be66b1e56b3] logging for flow file StandardFlowFileRecord[uuid=df0d2b43-b8de-4411-9e9a-6c5052b606dc,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1795099952635-1, container=default, section=1], offset=698, length=107],offset=0,name=b0b80157-bf43-4581-be92-ddcb73b059ce,size=107]
+Key: 'kafka.topic'
+  "id" : 16,
+2026-11-19 14:54:23,932 INFO [Timer-Driven Process Thread-8] o.a.n.processors.standard.LogAttribute LogAttribute[id=f44b5f94-01a1-1000-1d92-2be66b1e56b3] logging for flow file StandardFlowFileRecord[uuid=6333ac15-5c7f-427b-8b7a-e3295324094b,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1795099952644-3, container=default, section=3], offset=587, length=91],offset=0,name=bad45e7c-be66-4628-ad9c-b0aa095e8ecb,size=91]
+Key: 'kafka.topic'
+  "id" : 15,
+2026-11-19 14:54:24,953 INFO [Timer-Driven Process Thread-10] o.a.n.processors.standard.LogAttribute LogAttribute[id=f44b5f94-01a1-1000-1d92-2be66b1e56b3] logging for flow file StandardFlowFileRecord[uuid=d7f3ed00-57d8-4984-b650-7f9d111eb557,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1795099952635-1, container=default, section=1], offset=805, length=107],offset=0,name=1f17104b-82d6-4c3e-abcc-75552d973f9b,size=107]
+Key: 'kafka.topic'
+  "id" : 18,
+2026-11-19 14:54:24,954 INFO [Timer-Driven Process Thread-10] o.a.n.processors.standard.LogAttribute LogAttribute[id=f44b5f94-01a1-1000-1d92-2be66b1e56b3] logging for flow file StandardFlowFileRecord[uuid=2a6e1eab-b20e-4292-9093-01dfe4c3a9f0,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1795099952643-2, container=default, section=2], offset=408, length=91],offset=0,name=3bb28253-4481-424e-a9ec-8de378aa3290,size=91]
+Key: 'kafka.topic'
+  "id" : 17,
+2026-11-19 14:54:25,976 INFO [Timer-Driven Process Thread-8] o.a.n.processors.standard.LogAttribute LogAttribute[id=f44b5f94-01a1-1000-1d92-2be66b1e56b3] logging for flow file StandardFlowFileRecord[uuid=27518ed2-093f-4356-9479-fd58d8d96b77,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1795099952635-1, container=default, section=1], offset=912, length=107],offset=0,name=86d74ee5-16fa-4302-8f8f-d3d723e3abc2,size=107]
+Key: 'kafka.topic'
+  "id" : 20,
+2026-11-19 14:54:25,976 INFO [Timer-Driven Process Thread-8] o.a.n.processors.standard.LogAttribute LogAttribute[id=f44b5f94-01a1-1000-1d92-2be66b1e56b3] logging for flow file StandardFlowFileRecord[uuid=644029bc-ccb9-41e8-8f00-b2abb1c8c80a,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1795099952644-3, container=default, section=3], offset=678, length=91],offset=0,name=3449ea98-a196-4d9a-8e8e-4c331a0fdee4,size=91]
+Key: 'kafka.topic'
+  "id" : 19,

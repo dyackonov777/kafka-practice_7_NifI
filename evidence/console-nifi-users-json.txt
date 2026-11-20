@@ -1,0 +1,10 @@
+Partition:2	Offset:0	{"id":2,"name":"user-2","email":"user2@example.com","created_at":1795099839036}
+Partition:2	Offset:1	{"id":3,"name":"user-3","email":null,"created_at":1795099839536}
+Partition:2	Offset:2	{"id":4,"name":"user-4","email":"user4@example.com","created_at":1795099840037}
+Partition:2	Offset:3	{"id":5,"name":"user-5","email":null,"created_at":1795099840537}
+Partition:2	Offset:4	{"id":6,"name":"user-6","email":"user6@example.com","created_at":1795099841071}
+Partition:2	Offset:5	{"id":7,"name":"user-7","email":null,"created_at":1795099841576}
+Partition:2	Offset:6	{"id":9,"name":"user-9","email":null,"created_at":1795099842578}
+Partition:2	Offset:7	{"id":10,"name":"user-10","email":"user10@example.com","created_at":1795099843104}
+Partition:2	Offset:8	{"id":100,"name":"user-100","email":"user100@example.com","created_at":1795099995419}
+Partition:2	Offset:9	{"id":11,"name":"user-11","email":null,"created_at":1795100060882}

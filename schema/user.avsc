@@ -1,0 +1,26 @@
+{
+  "namespace": "ru.practice.kafka",
+  "type": "record",
+  "name": "User",
+  "doc": "Пользователь, отправляемый в топик student-topic",
+  "fields": [
+    {
+      "name": "id",
+      "type": "int"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "email",
+      "type": ["null", "string"],
+      "default": null
+    },
+    {
+      "name": "created_at",
+      "type": "long",
+      "doc": "Время создания, epoch millis"
+    }
+  ]
+}

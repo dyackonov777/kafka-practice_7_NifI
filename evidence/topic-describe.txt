@@ -1,0 +1,18 @@
+### kafka-topics --describe --topic student-topic
+Topic: student-topic	TopicId: YDwE722uTZS8GIAHhvxaBA	PartitionCount: 3	ReplicationFactor: 3	Configs: min.insync.replicas=2,cleanup.policy=delete,segment.bytes=1073741824,retention.ms=604800000,unclean.leader.election.enable=false
+	Topic: student-topic	Partition: 0	Leader: 3	Replicas: 1,2,3	Isr: 3,2,1
+	Topic: student-topic	Partition: 1	Leader: 3	Replicas: 2,3,1	Isr: 3,1,2
+	Topic: student-topic	Partition: 2	Leader: 3	Replicas: 3,1,2	Isr: 3,2,1
+
+### kafka-topics --describe --topic nifi-users-json
+Topic: nifi-users-json	TopicId: zfFqSPmiRNKWFi_SKvELkA	PartitionCount: 3	ReplicationFactor: 3	Configs: min.insync.replicas=2,cleanup.policy=delete,segment.bytes=1073741824,retention.ms=604800000,unclean.leader.election.enable=false
+	Topic: nifi-users-json	Partition: 0	Leader: 3	Replicas: 2,3,1	Isr: 3,2,1
+	Topic: nifi-users-json	Partition: 1	Leader: 3	Replicas: 3,1,2	Isr: 3,2,1
+	Topic: nifi-users-json	Partition: 2	Leader: 3	Replicas: 1,2,3	Isr: 3,1,2
+
+### kafka-configs --describe --topic student-topic
+Dynamic configs for topic student-topic are:
+  cleanup.policy=delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=delete, STATIC_BROKER_CONFIG:log.cleanup.policy=delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  min.insync.replicas=2 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=2, STATIC_BROKER_CONFIG:min.insync.replicas=2, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.ms=604800000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=604800000, STATIC_BROKER_CONFIG:log.retention.ms=604800000, DEFAULT_CONFIG:log.retention.hours=168}
+  segment.bytes=1073741824 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=1073741824, STATIC_BROKER_CONFIG:log.segment.bytes=1073741824, DEFAULT_CONFIG:log.segment.bytes=1073741824}

@@ -1,0 +1,8 @@
+.env
+.idea/
+__pycache__/
+*.pyc
+.venv/
+venv/
+nifi/output/*
+!nifi/output/.gitkeep
